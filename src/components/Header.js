@@ -33,7 +33,7 @@ export const Header = () => {
             <img src={Logo} className="h-6 mr-2 sm:h-9" alt="Cinemate Logo" />
 
             <span className=" text-2xl first-line:self-center font-semibold whitespace-nowrap dark:text-white">
-              Cinemate
+              Cinema mate
             </span>
           </NavLink>
 
