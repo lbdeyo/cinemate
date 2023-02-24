@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import {Navigate, useNavigate, NavLink} from "react-router-dom";
+import {useNavigate, NavLink} from "react-router-dom";
 import Logo from "../assets/logo.png";
 export const Header = () => {
   const navigate = useNavigate();
@@ -32,7 +32,7 @@ export const Header = () => {
           <NavLink to="/" className="flex items-center">
             <img src={Logo} className="h-6 mr-2 sm:h-9" alt="Cinemate Logo" />
 
-            <span className="text-base text-2xl first-line:self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+            <span className=" text-2xl first-line:self-center font-semibold whitespace-nowrap dark:text-white">
               Cinemate
             </span>
           </NavLink>

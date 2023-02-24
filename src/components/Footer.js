@@ -14,27 +14,31 @@ export const Footer = () => {
         <ul className="flex flex-wrap items-center mt-3 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
           <li>
             <a
-              href="#"
+              href="https://instagram.com"
               className="mr-4 hover:underline md:mr-6 "
               rel="noreferrer">
               Instagram
             </a>
           </li>
           <li>
-            <a href="#" className="mr-4 hover:underline md:mr-6">
+            <a
+              href="https://linkedin.com"
+              className="mr-4 hover:underline md:mr-6">
               LinkedIn
             </a>
           </li>
           <li>
-            <a href="#" className="mr-4 hover:underline md:mr-6">
+            <a
+              href="https://youtube.com"
+              className="mr-4 hover:underline md:mr-6">
               YouTube
             </a>
           </li>
-          <li>
-            <a href="#" className="hover:underline">
+          {/* <li>
+            <a href="/" className="hover:underline">
               Contact
             </a>
-          </li>
+          </li> */}
         </ul>
       </footer>
     </footer>
